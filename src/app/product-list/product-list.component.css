@@ -1,0 +1,18 @@
+.img{
+    width: 50px;
+}
+.empty-state {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+.empty-state h3 {
+    color: #495057;
+    margin-bottom: 0.5rem;
+}
+.empty-state p {
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+}
+  
