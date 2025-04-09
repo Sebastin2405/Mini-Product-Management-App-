@@ -14,5 +14,5 @@ export const routes: Routes = [
     loadComponent: () => import('./product-form/product-form.component').then(m => m.ProductFormComponent) 
   },
   { path: '', redirectTo: 'products', pathMatch: 'full' },
-  { path: '**', redirectTo: 'products' } // Handle 404
+  { path: '**', redirectTo: 'products' }
 ];
